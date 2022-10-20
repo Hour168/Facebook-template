@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testing Social</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/d3453a40ed.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav>
+        <div class="nav-left">
+            <img src="img/logo.png" class="logo">
+
+            <ul>
+                <li><img src="img/notification.png"></li>
+                <li><img src="img/inbox.png"></li>
+                <li><img src="img/video.png"></li>
+            </ul>
+
+        </div>
+
+        <div class="nav-right">
+
+            <div class="search-box">
+                <img src="img/search.png">
+                <input type="text" placeholder="Search ">
+            </div>
+            
+            <div class="nav-user-icon online" onclick="settingsMenuToggle()">
+                <img src="img/profile.jpg">
+
+            </div>
+        </div>
+
+        <!-----------------Setting-menu--------------------->
+
+        <div class="settings-menu">
+            <div id="dark-botton" class="dark-botton-on">
+                <span></span>
+            </div>
+            <div class="settings-menu-inner">
+                <div class="user-profile">
+                    <img src="img/profile.jpg">
+                    <div>
+                        <p>Pho Keanghour</p>
+                       <a href="Profile.html">See your profile</a>
+                    </div>
+                </div>
+                <hr>
+                <div class="user-profile">
+                    <img src="img/info.png">
+                    <div>
+                        <p>Give Feedback </p>
+                       <a href="#">Help us to improve ...</a>
+                    </div>
+                </div>
+                <hr>
+                <div class="settings-links">
+                    <img src="img/setting.png" class="setting-icon">
+                    <a href="#"> Setting and Privacy <img src="img/right-arrow.png" width="10px"></a>
+                </div>
+                <div class="settings-links">
+                    <img src="img/customer-service.png" class="setting-icon">
+                    <a href="#"> Help & Support <img src="img/right-arrow.png"  width="10px"></a>
+                </div>
+                <div class="settings-links">
+                    <img src="img/logout.png" class="setting-icon">
+                    <a href="#"> Log out </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <!--------------------left-sidebar--------------------->
+        <div class="left-sidebar">
+            <div class="imp-links">
+                <a href="#"><img src="img/home-icon-silhouette.png"> Home</a>
+                <a href="#"><img src="img/friends.png"> Friends</a>
+                <a href="#"><img src="img/group.png"> Group</a>
+                <a href="#"><img src="img/market place.png"> Marketplace</a>
+                <a href="#"><img src="img/video.png"> Watch</a>
+                <a href="#">See More</a>
+            </div>
+            <div class="shortcut-links">
+                <p>Your Shortcuts</p>
+                <a href="#"><img src="img/Shortcut1.jpeg" >Web Developers</a>
+                <a href="#"><img src="img/shortcut2.jpg" >Web Design</a>
+                <a href="#"><img src="img/Shortcut1.jpeg" >Web Developers</a>
+                <a href="#"><img src="img/Shortcut1.jpeg" >Web Developers</a>
+            </div>
+        </div>
+
+        <!--------------------main-content--------------------->
+
+        <div class="main-content">
+            <div class="story-gallery">
+                <div class="story story1">
+                    <img src="img/upload.png">
+                    <p>Post Story</p>
+                </div>
+                <div class="story story2">
+                    <img src="img/p6.jpg">
+                    <p>Mo Mo</p>
+                </div>
+                <div class="story story3">
+                    <img src="img/P3.jpg">
+                    <p>Micky Cute</p>
+                </div>
+                <div class="story story4">
+                    <img src="img/P4.jpg">
+                    <p>Pissey</p>
+                </div>
+                <div class="story story5">
+                    <img src="img/P5.jpg">
+                    <p>Babe</p>
+                </div>
+            </div>
+            <div class="write-post-container">
+                <div class="user-profile">
+                    <img src="img/profile.jpg">
+                    <div>
+                        <p>Pho Keanghour</p>
+                        <small>Public <i class="fa-solid fa-caret-down"></i> </small>
+                    </div>
+                </div>
+                <div class="post-input-container">
+                    <textarea rows="3" placeholder="What on your mind , Keanghour?"></textarea>
+                    <div class="add-post-links">
+                        <a href="#"><img src="img/facebook.png" >Live Vidoes</a>
+                        <a href="#"><img src="img/image-gallery.png" >Photos/Videos</a>
+                        <a href="#"><img src="img/feeling.png" >Feeling/Activity</a>
+                    </div>
+                </div>
+            </div>
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="img/profile.jpg">
+                        <div>
+                            <p>Pho Keanghour</p>
+                            <span> July / 12 / 2023 , 8:15PM <i class="fa-solid fa-earth-asia"></i> </span>
+                        </div>
+                    </div>
+                    <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                </div>
+                <p class="Post-text">Hello Sir/Madam , My name is , <span> Pho Keanghour </span> I'm 23 yeasr.I.m studying  Management of information System at Setec Institute. I am looking for an opportunity to use my skill in web Development industry.</p>
+                <img src="img/img1.jpg" class="post-img">
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div><img src="img/like-blue.png" >10M</div>
+                        <div><img src="img/comment.png" >531 comment</div>
+                        <div><img src="img/share.png" >20K Share</div>
+                    </div>
+                    <div class="post-profile-icons">
+                        <img src="img/profile.jpg"><i class="fa-solid fa-caret-down"></i>
+                    </div>
+                </div>
+            </div>
+
+            <!--------------------main-content-profile1--------------------->
+
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="img/p10.jpg">
+                        <div>
+                            <p>Pi Ch</p>
+                            <span> July / 22 / 2023 , 8:15PM <i class="fa-solid fa-earth-asia"></i> </span>
+                        </div>
+                    </div>
+                    <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                </div>
+                <p class="Post-text">នៅពេលខ្ញុំធ្លាក់ដល់ចំណុចសូន្យ ទើស្គាល់ពីចិត្តមនុស្ស🙂😊</p>
+                <img src="img/image1.jpg" class="post-img">
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div><img src="img/like-blue.png" >1M</div>
+                        <div><img src="img/comment.png" >51 comment</div>
+                        <div><img src="img/share.png" >2K Share</div>
+                    </div>
+                    <div class="post-profile-icons">
+                        <img src="img/p10.jpg"><i class="fa-solid fa-caret-down"></i>
+                    </div>
+                </div>
+            </div>
+
+            <!--------------------main-content-profile2--------------------->
+
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="img/p11.jpg">
+                        <div>
+                            <p>Ching Ching</p>
+                            <span> July / 02 / 2023 , 10:15PM <i class="fa-solid fa-earth-asia"></i> </span>
+                        </div>
+                    </div>
+                    <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                </div>
+                <p class="Post-text">I miss the old me, always happy, not stress like now.</p>
+                <img src="img/image2.jpg" class="post-img">
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div><img src="img/like-black.png" >1M</div>
+                        <div><img src="img/comment.png" >51 comment</div>
+                        <div><img src="img/share.png" >2K Share</div>
+                    </div>
+                    <div class="post-profile-icons">
+                        <img src="img/p11.jpg"><i class="fa-solid fa-caret-down"></i>
+                    </div>
+                </div>
+            </div>
+
+            <!--------------------main-content-profile3--------------------->
+
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="img/p13.jpg">
+                        <div>
+                            <p>Jenbii</p>
+                            <span> July / 09 / 2023 , 11:15PM <i class="fa-solid fa-earth-asia"></i> </span>
+                        </div>
+                    </div>
+                    <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                </div>
+                <p class="Post-text">Please don't be inlove with someone else..❤️</p>
+                <img src="img/image3.jpg" class="post-img">
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div><img src="img/like-black.png" >13M</div>
+                        <div><img src="img/comment.png" >771 comment</div>
+                        <div><img src="img/share.png" >23.7K Share</div>
+                    </div>
+                    <div class="post-profile-icons">
+                        <img src="img/p13.jpg"><i class="fa-solid fa-caret-down"></i>
+                    </div>
+                </div>
+            </div>
+
+            <button type="Button" class="load-more-button" > Load More </button>
+
+        </div>
+        
+        <!--------------------right-sidebar--------------------->
+       
+        <div class="right-sidebar">
+            <div class="sidebar-title">
+                <h4>Event</h4>
+                <a href="#">See All</a>
+            </div>
+            <div class="event">
+                <div class="left-event">
+                    <h3>18</h3>
+                    <span>January</span>
+                </div>
+                <div class="right-event">
+                    <h4>Social Media</h4>
+                    <p> <i class="fa-solid fa-location-dot"></i> Phnom Penh</p>
+                    <a href="#"> More Info</a>
+                </div>
+            </div>
+            <div class="event">
+                <div class="left-event">
+                    <h3>11</h3>
+                    <span>May</span>
+                </div>
+                <div class="right-event">
+                    <h4>Web Developers</h4>
+                    <p> <i class="fa-solid fa-location-dot"></i> Phnom Penh</p>
+                    <a href="#"> More Info</a>
+                </div>
+            </div>
+            <div class="sidebar-title">
+                <h4>Advertisment</h4>
+                <a href="#">Close</a>
+            </div>
+            <img src="img/Advertisement1.jpg" class="sidebar-ads">
+            <div class="sidebar-title">
+                <h4>Conversation</h4>
+                <a href="#">Hide Chat</a>
+            </div>
+            <div class="online-list">
+                <div class="online">
+                    <img src="img/profile.jpg">
+                </div>
+                <p>Pho Keanghour</p>
+            </div>
+            <div class="online-list">
+                <div class="online">
+                    <img src="img/P1.jpg">
+                </div>
+                <p>Chum Reachsey</p>
+            </div>
+            <div class="online-list">
+                <div class="online">
+                    <img src="img/P2.jpg">
+                </div>
+                <p>Hea Hour</p>
+            </div>
+            <div class="online-list">
+                <div class="online">
+                    <img src="img/P4.jpg">
+                </div>
+                <p>Mo Mo</p>
+            </div>
+            <div class="online-list">
+                <div class="online">
+                    <img src="img/P5.jpg">
+                </div>
+                <p>Kittry</p>
+            </div>
+            <p>See more...</p>
+        </div>
+    </div> 
+<div class="footer">
+    <p>Copyright 2022 - Pho keanghour</p>
+</div>
+
+<!--------------------JS----------------------->
+
+<script src="script.js"></script>
+
+</body>
+</html> 
